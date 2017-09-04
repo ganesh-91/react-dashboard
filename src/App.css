@@ -35,19 +35,9 @@
     }
 }
 
-@keyframes example {
-    from {
-        background-color: red;
+/* 
+.side-bar{
+    .shrinked{
+        width: 2em;
     }
-    to {
-        background-color: yellow;
-    }
-}
-
-.header-animation {
-    animation-duration: 4s;
-}
-
-.nav-link.disabled {
-    pointer-events: none
-}
+} */
