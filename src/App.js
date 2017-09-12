@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Content from "./components/content";
+import ContentViewWrapper from "./components/contentViewWrapper";
 import Sidebar from "./components/sidebar";
 import Header from "./components/header";
 
@@ -13,7 +13,7 @@ class App extends Component {
         <div className="container-fluid">
           <div className="row">
             <Sidebar />
-            {/*<Content />*/}
+            <ContentViewWrapper />
           </div >
         </div >
         {/*<div className="container-fluid">
