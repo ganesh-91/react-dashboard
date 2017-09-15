@@ -15,3 +15,11 @@
 .alert:hover {
     opacity: 1;
 }
+
+@media only screen and (max-width: 425px) {
+    .alert-block {
+        left: 0;
+        width: 90%;
+        margin: 0 5%;
+    }
+}
